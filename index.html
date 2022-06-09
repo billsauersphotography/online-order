@@ -32,8 +32,8 @@
 <body>
     <div class="container">
       <!-- Form -->
-      <!-- <form id="form" action="https://formsubmit.co/billsauersphotography@gmail.com" method="POST"> -->
-      <form id="form" action="https://formsubmit.co/stephenstangl@gmail.com" method="POST">
+      <form id="form" action="https://formsubmit.co/billsauersphotography@gmail.com" method="POST">
+      <!-- <form id="form" action="https://formsubmit.co/stephenstangl@gmail.com" method="POST"> -->
 
         <h1 class='title'>Bill Sauers Photography</h1>
         <h2 class='title'>2022 Sports Order Form</h2>
@@ -178,7 +178,7 @@
           </div>
         </div>
 
-        <div class="product-box">
+        <!--<div class="product-box">
           <h4>Desktop Memory Mate - $24.00</h4>
           <p>Hinged, stand-up 3.5x5 individual, 7x5 team photo.</p>
           <p class="small">Select this product<br> with the checkbox below</p>
@@ -197,7 +197,7 @@
               </select>
             </label>
           </div>
-        </div>
+        </div>-->
 
         <div class="product-box">
           <h4>8-Deluxe Trading Cards - $16.00</h4>
@@ -321,7 +321,7 @@
           </div>
         </div>
 
-        <div class="product-box multi-product">
+        <!--<div class="product-box multi-product">
           <h4>Phone Cover - $25.00</h4>
           <p class="small">Select the appropriate checkbox <br>for your phone</p>
           <div class="col-wrapper">
@@ -485,19 +485,40 @@
               </select>
             </label>
           </div>          
-        </div>
+        </div>-->
 
         <div class="product-box no-border">
-          <h4>Low Resolution Digital Image - $15.00</h4>
-          <p>(Wallet Size 2x3 @300dpi)</p>
+          <h4>Hi-Res Digital Image (Individual Photo) - $20.00</h4>
+          <p>Emailed to you <em>without</em> the purchase of a package or prints.</p>
           <p class="small">Select this product<br> with the checkbox below</p>
-          <input class="large-checkbox" data-checkbox type="checkbox" data-price="15" id="Low-Resolution-Digital-Image" name='Low-Resolution-Digital-Image' value='Purchase - $15.00 each'>
-          <label for="Low-Resolution-Digital-Image" class="custom-checkbox custom-checkbox-large">
+          <input class="large-checkbox" data-checkbox type="checkbox" data-price="20" id="Hi-Res-Digital-Image" name='Hi-Res-Digital-Image' value='Purchase - $20.00 each'>
+          <label for="Hi-Res-Digital-Image" class="custom-checkbox custom-checkbox-large">
             <i class="fas fa-check"></i>
           </label>
           <div class="quantity-wrapper">
-            <label id="Label-Low-Resolution-Digital-Image" hidden>Quantity:
-              <select disabled name="Low-Resolution-Digital-Image-Quantity">
+            <label id="Label-Hi-Res-Digital-Image" hidden>Quantity:
+              <select disabled name="Hi-Res-Digital-Image-Quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="product-box no-border">
+          <h4>Hi-Res Digital Image Add-on (Individual Photo) - $10.00</h4>
+          <p>Emailed to you <em>with</em> the purchase of a package or prints.</p>
+          <p class="small">Select this product<br> with the checkbox below</p>
+          <input class="large-checkbox" data-checkbox type="checkbox" data-price="10" id="Hi-Res-Digital-Image-Addon" name='Hi-Res-Digital-Image-Addon' value='Purchase - $10.00 each'>
+          <label for="Hi-Res-Digital-Image-Addon" class="custom-checkbox custom-checkbox-large">
+            <i class="fas fa-check"></i>
+          </label>
+          <div class="quantity-wrapper">
+            <label id="Label-Hi-Res-Digital-Image-Addon" hidden>Quantity:
+              <select disabled name="Hi-Res-Digital-Image-Addon-Quantity">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
